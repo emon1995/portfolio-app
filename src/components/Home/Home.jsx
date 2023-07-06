@@ -1,8 +1,22 @@
 import "./Home.css";
+import Lottie from "lottie-react";
+import scroll from "../../assets/scroll.json";
+import { Link } from "react-router-dom";
+import resume from "/Emon_Hossain_Resume.pdf";
 
 const Home = () => {
+  // const handleDownload = () => {
+  //   const link = document.createElement('a');
+  //   link.href = resume;
+  //   link.setAttribute(
+  //     'download',
+  //     `FileName.pdf`,
+  //   );
+  //   link.download = 'Emon_Hossain_Resume';
+  //   link.click();
+  // }
   return (
-    <div className="home" style={{ height: "calc(100vh-88px)" }}>
+    <div className="home">
       <div className="home-info">
         <h1 className="home-title">Hey, I&apos;m Emon Hossain</h1>
         <p className="home-subtitle">
@@ -10,7 +24,12 @@ const Home = () => {
           websites <br /> and web applications, which promotes the success of
           the final product.
         </p>
-        <button className="btn">My Resume</button>
+        <button
+          // onClick={handleDownload}
+          className="btn"
+        >
+          My Resume
+        </button>
       </div>
       {/* <div className="main-social"> */}
       <div className="social">
@@ -93,7 +112,7 @@ const Home = () => {
             />
           </svg>
         </div>
-        <div className="icon">
+        <div className="social-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="48"
@@ -109,9 +128,10 @@ const Home = () => {
         </div>
       </div>
       {/* </div> */}
+      <div className="main-whatsup">
       <div className="whatsup">
         <p className="chat-with-me">chat with me</p>
-        <div>
+        <div className="whatsup-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="88"
@@ -140,6 +160,10 @@ const Home = () => {
             </defs>
           </svg>
         </div>
+      </div>
+      </div>
+      <div className="scroll">
+        <Lottie animationData={scroll} loop={true} />
       </div>
     </div>
   );
