@@ -51,6 +51,23 @@ left: 696px; */
   text-align: center;
 }
 
+.know-me > p{
+  font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 48px;
+}
+
 .linkedin {
   font-size: 20px;
   font-weight: 400;
@@ -60,6 +77,7 @@ left: 696px; */
 .about-info{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 106px;
 }
 
 .my-skills{
@@ -78,9 +96,6 @@ left: 696px; */
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
   background: rgba(232, 233, 235, 1);
-
+  margin: 0px;
 }

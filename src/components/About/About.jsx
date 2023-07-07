@@ -47,7 +47,7 @@ const About = () => {
             title: 'Node js'
         },
         {
-            id: 10,
+            id: 12,
             title: 'MongoDB'
         },
     ]
@@ -63,7 +63,7 @@ const About = () => {
         </p>
       </div>
       <div className="about-info">
-        <div className="knwo-me">
+        <div className="know-me">
             <h1 className="know">Get to know me!</h1>
           <p>
             I develop the front-end of websites and web applications as a 
@@ -83,12 +83,15 @@ const About = () => {
             me if you have a good opportunity that matches my qualifications and
             expertise.
           </p>
+          <button className="btn">Contact</button>
         </div>
-        <div className="my-skills">
+        <div className="my-skill">
             <h1 className="skills">My Skills</h1>
+            <div className="my-skills">
             {
                 skills.map(skill => <p className="skill" key={skill.id}>{skill.title}</p>)
             }
+            </div>
         </div>
       </div>
     </div>
