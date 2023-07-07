@@ -83,7 +83,7 @@ const About = () => {
             me if you have a good opportunity that matches my qualifications and
             expertise.
           </p>
-          <button className="btn">Contact</button>
+          <button className="btn" style={{marginBottom: "48px"}}>Contact</button>
         </div>
         <div className="my-skill">
             <h1 className="skills">My Skills</h1>
