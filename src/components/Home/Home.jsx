@@ -1,8 +1,8 @@
 import "./Home.css";
 import Lottie from "lottie-react";
 import scroll from "../../assets/scroll.json";
-import { Link } from "react-router-dom";
-import resume from "/Emon_Hossain_Resume.pdf";
+// import { Link } from "react-router-dom";
+// import resume from "/Emon_Hossain_Resume.pdf";
 
 const Home = () => {
   // const handleDownload = () => {

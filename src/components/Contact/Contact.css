@@ -20,8 +20,6 @@ label{
     font-family: Inter;
 font-size: 20px;
 font-weight: 700;
-line-height: 24px;
-letter-spacing: 0em;
 text-align: left;
 color: rgba(49, 49, 49, 1);
 margin-bottom: 26px;
@@ -41,7 +39,7 @@ input{
 
 textarea{
     width: 742px;
-    height: 147px;
+    height: 97px;
     border-radius: 16px;
     color: rgba(242, 244, 243, 1);
     background: rgba(242, 244, 243, 1);
