@@ -74,9 +74,9 @@
   fill: #219ebc;
 }
 
-/* .social-icon > svg :hover {
+.social-icon :hover path{
   fill: #219ebc;
-} */
+}
 
 /* .social-icon path :hover {
   fill: #219ebc;
