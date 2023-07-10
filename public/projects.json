@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Toy Car",
+        "images": [
+            "./tc1.png",
+            "./t2.png",
+            "./tc3.png"
+        ],
+        "descriptions": [
+            "Toy Car MERN stack website offers an exciting collection of toy cars, bringing joy and adventure to kids of all ages.",
+            "Our website offers customizable toy car options, allowing kids to personalize and design their dream vehicles.",
+            "Our website promotes educational play with toy cars, fostering motor race skills development and spatial awareness."
+        ],
+        "socialLinks": {
+            "website": "https://cars-toys-zone.web.app/",
+            "github-client": "https://github.com/emon1995/toy-car-client",
+            "github-server": "https://github.com/emon1995/toy-car-server"
+        },
+        "technologies": [
+            "React JS",
+            "Express JS",
+            "MongoDB",
+            "TailwindCSS",
+            "DaisyUI",
+            "Firebase Authentication"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Chef Recipe",
+        "images": [
+            "./cr1.png",
+            "./cr2.png",
+            "./cr3.png"
+        ],
+        "descriptions": [
+            "Our MERN stack website brings you a world of culinary delights, offering a vast collection of chef-inspired recipes.",
+            "Our website explores the art of culinary fusion, blending diverse flavors and techniques to create unique and memorable dishes.",
+            "Chef Recipe website offers traditional and authentic recipes from different cuisines, preserving the rich culinary heritage of various cultures."
+        ],
+        "socialLinks": {
+            "website": "https://simple-firebase-react-acca5.web.app/",
+            "github-client": "https://github.com/emon1995/chef-recipe-client",
+            "github-server": "https://github.com/emon1995/chef-recipe-server"
+        },
+        "technologies": [
+            "React JS",
+            "Express JS",
+            "MongoDB",
+            "TailwindCSS",
+            "DaisyUI",
+            "Firebase Authentication"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Car Doctor",
+        "images": [
+            "./cd1.png",
+            "./cd2.png",
+            "./cd3.png"
+        ],
+        "descriptions": [
+            "Our MERN stack website streamlines the car service experience, making it efficient and hassle-free for customers.",
+            "Our website provides a smooth user experience, allowing customers to easily book and manage their car services.",
+            "Website adapts seamlessly to different devices, ensuring a consistent experience for users on desktop, mobile, and tablets."
+        ],
+        "socialLinks": {
+            "website": "https://car-doctor-f99a4.web.app/",
+            "github-client": "https://github.com/emon1995/car-doctor-client",
+            "github-server": "https://github.com/emon1995/car-doctor-server"
+        },
+        "technologies": [
+            "React JS",
+            "Express JS",
+            "MongoDB",
+            "TailwindCSS",
+            "DaisyUI",
+            "Firebase Authentication"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Summer Camp School",
+        "images": [
+            "https://ibb.co/7xhGHGk",
+            "./scs2.png",
+            "./scs3.png"
+        ],
+        "descriptions": [
+            "Summer Camp School is a web application designed to manage summer camp programs for schools.",
+            "Features include online registration, course selection, payment processing, and attendance tracking.",
+            "The application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack for a modern and scalable development approach."
+        ],
+        "socialLinks": {
+            "website": "https://summer-camp-b9c4b.web.app/",
+            "github-client": "https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-emon1995",
+            "github-server": "https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-emon1995"
+        },
+        "technologies": [
+            "React JS",
+            "Express JS",
+            "MongoDB",
+            "TailwindCSS",
+            "DaisyUI",
+            "Firebase Authentication"
+        ]
+    }
+]
