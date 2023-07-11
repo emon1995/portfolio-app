@@ -3,8 +3,13 @@ import Img from "../../assets/p1.png";
 import newImg from "../../assets/open_in_new.png";
 import arrow from "../../assets/arrow.png";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Projects = () => {
+  useEffect(() => {
+    Aos.init()
+  }, []);
   return (
     <div id="#about" className="projects">
       <div className="about-hints">
@@ -15,7 +20,7 @@ const Projects = () => {
         </p>
       </div>
       <div className="project-all">
-        <div className="project-item">
+        <div data-aos="fade-down" className="project-item">
           <img src={Img} alt="img" />
           <h3>Toy Car</h3>
           <p>Toy Car MERN stack website offers an exciting collection of toy cars, bringing joy and adventure to kids of all ages.</p>
@@ -24,7 +29,7 @@ const Projects = () => {
             <img src={newImg} alt="img" />
           </div>
         </div>
-        <div className="project-item item">
+        <div data-aos="fade-up" className="project-item item">
           <img src={Img} alt="img" />
           <h3>Chef Recipe</h3>
           <p>Our MERN stack website brings you a world of culinary delights, offering a vast collection of chef-inspired recipes.</p>
@@ -33,7 +38,7 @@ const Projects = () => {
             <img src={newImg} alt="img" />
           </div>
         </div>
-        <div className="project-item">
+        <div data-aos="fade-down" className="project-item">
           <img src={Img} alt="img" />
           <h3>Car Doctor</h3>
           <p>Our MERN stack website streamlines the car service experience, making it efficient and hassle-free for customers.</p>
@@ -42,7 +47,7 @@ const Projects = () => {
             <img src={newImg} alt="img" />
           </div>
         </div>
-        <div className="project-item item">
+        <div data-aos="fade-up" className="project-item item">
           <img src={Img} alt="img" />
           <h3>Summer Camp School</h3>
           <p>Take a look at our Summer Camp brochure or visit our website to explore the exciting range of programs we offer.</p>

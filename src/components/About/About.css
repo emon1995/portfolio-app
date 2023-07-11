@@ -100,3 +100,27 @@ left: 696px; */
   background: rgba(232, 233, 235, 1);
   margin: 0px;
 }
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .about {
+    height: 100%;
+  }
+
+  .about-info {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    height: 100%;
+  }
+
+  .about-info {
+    grid-template-columns: repeat(1, 1fr);
+    height: 100%;
+    padding: 15px;
+  }
+}
